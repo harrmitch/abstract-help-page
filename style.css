@@ -353,3 +353,30 @@ img {
   min-width: 10rem;
   align-self: flex-end;
 }
+
+/* Help button */
+
+.help {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+}
+
+.help button {
+  box-sizing: border-box;
+  background-color: #4c5fd5;
+  border: none;
+  border-radius: 25px;
+  display: inline-flex;
+  place-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1.25rem;
+
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.help button:focus {
+  border: 2px solid #dadbf1;
+}
