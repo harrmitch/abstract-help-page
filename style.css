@@ -73,6 +73,7 @@
 .sign-in {
   background-color: #4c5fd5;
   transition: all 0.25s ease-in-out;
+  border: none;
 }
 
 .sign-in:hover {
